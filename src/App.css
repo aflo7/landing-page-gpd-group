@@ -1,0 +1,166 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgb(255, 255, 255, 0.7);
+}
+
+.gdp-logo {
+  height: 50px;
+}
+
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./assets/hi-were-gpd-group.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main--top--text--wrapper {
+  padding-top: 260px;
+  padding-bottom: 260px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: rgb(7, 74, 43);
+}
+
+.ios-arrow-down {
+  font-size: 3rem;
+}
+
+.transforming--text {
+  font-size: 2rem;
+}
+
+.see--how--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redifining--wrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main--bottom--text--wrapper > div:nth-child(1) {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main--bottom--text--wrapper > div:nth-child(1) p {
+  color: gray;
+}
+
+.main--bottom--wrapper--outer {
+  background-color: rgba(0, 128, 0, 0.5);
+}
+.main--bottom--wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.gi-hamburger-menu {
+  font-size: 1.5rem;
+  color: rgb(7, 74, 43);
+}
+
+.learn-btn {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(135, 161, 50);
+  padding: 10px 20px;
+  border: none;
+  width: fit-content;
+}
+
+.main--bottom--flex--group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 80px 20px;
+}
+
+.main--bottom--flex--group > div {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.main--bottom--flex--group > div > div:nth-child(1) {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.main--bottom--flex--group > div > div:nth-child(2) {
+  text-transform: uppercase;
+}
+
+.main--top--text--wrapper,
+.main--bottom--wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.right-img {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .main--top--text--wrapper {
+    font-size: 2.6rem;
+  }
+
+  .transforming--text {
+    font-size: 3.4rem;
+  }
+
+  .see--how--wrapper {
+    font-size: 1.6rem;
+  }
+
+  .main--bottom--text--wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 20px;
+  }
+
+  .main--bottom--text--wrapper > div:nth-child(1) {
+    flex: 2;
+  }
+
+  .main--bottom--text--wrapper > div:nth-child(2) {
+    flex: 1;
+    margin: 40px;
+    margin-bottom: 100px;
+  }
+
+  .right-img {
+    display: block;
+    background-image: url(https://gpdgroup.com/wp-content/uploads/2020/07/hi-were-gpd-group.jpeg);
+    background-size: cover;
+  }
+}
